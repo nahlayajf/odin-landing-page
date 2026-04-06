@@ -6,7 +6,7 @@ body {
 
 .header,
 .content-1,
-footer {
+.footer {
     background-color: #1F2937;
 }
 
@@ -16,7 +16,8 @@ footer {
     font-weight: 900;
 }
 
-.text {
+.content-1 .text,
+.header .text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -24,4 +25,35 @@ footer {
 .logo-text {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+button,
+.content-4 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font: weight 900;
+}
+
+.section .text {
+    color: grey;
+}
+
+.content-3 {
+    background-color: #E5E7EB;
+
+}
+
+.content-4 {
+    color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
 }
