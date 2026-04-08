@@ -4,8 +4,25 @@ body {
     min-height: 100vh;
 }
 
-.main-header,
-.hero-section,
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    font-weight: 300px;
+    margin: 0px;
+    padding: 0px;
+    color: grey;
+}
+
+.hero,
 .footer {
     background: #1F2937;
 }
@@ -33,10 +50,25 @@ button,
     color: #E5E7EB;
 }
 
+.hero-section button {
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+}
+
+.cta button {
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+}
+
+button {
+    padding: 8px 16px;
+    font-weight: 600;
+}
+
 .information-header {
     font-size: 36px;
     color: #1F2937;
-    font: weight 900;
+    font-weight: 900;
 }
 
 .section .text {
@@ -52,8 +84,18 @@ button,
     color: #E5E7EB;
 }
 
-.quote {
+.quote-text {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+}
+
+.quote-author {
+    font-weight: 900;
+}
+
+.information img,
+.cta {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
 }
