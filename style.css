@@ -1,13 +1,13 @@
 body {
-    font-family: Roboto, Arial, Oxygen;
+    font-family: 'Roboto', sans-serif, 'Oxygen';
     margin: 0;
     min-height: 100vh;
 }
 
-.header,
-.content-1,
+.main-header,
+.hero-section,
 .footer {
-    background-color: #1F2937;
+    background: #1F2937;
 }
 
 .main-text {
@@ -16,8 +16,8 @@ body {
     font-weight: 900;
 }
 
-.content-1 .text,
-.header .text {
+.hero-section .text,
+.main-header .text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 button,
-.content-4 {
+.cta {
     background-color: #3882F6;
     color: #E5E7EB;
 }
@@ -43,12 +43,12 @@ button,
     color: grey;
 }
 
-.content-3 {
+.testimonial {
     background-color: #E5E7EB;
 
 }
 
-.content-4 {
+.footer {
     color: #E5E7EB;
 }
 
