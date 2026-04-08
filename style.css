@@ -22,6 +22,11 @@ ul {
     color: grey;
 }
 
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
 .hero,
 .footer {
     background: #1F2937;
