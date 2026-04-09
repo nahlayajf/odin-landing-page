@@ -48,8 +48,20 @@ ul {
 
 .info-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.information-header {
+    padding: 25px;
+}
+
+.section {
+    max-width: 200px;
 
 }
+
 
 .hero,
 .footer {
