@@ -24,8 +24,16 @@ ul {
 
 .hero-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
 }
+
+.hero-section .right-side,
+.hero-section .left-side {
+    align-items: center;
+}
+
+
 
 .hero,
 .footer {
