@@ -134,7 +134,7 @@ button {
 
 .testimonial {
     background-color: #E5E7EB;
-
+    padding: 60px 200px
 }
 
 .footer {
@@ -150,10 +150,15 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    align-content: center;
+    justify-content: center;
 }
 
 .quote-author {
     font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
 }
 
 .information img,
