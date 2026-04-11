@@ -69,8 +69,10 @@ ul {
 
 
 .section {
+    display: flex;
+    flex-direction: column;
     max-width: 150px;
-
+    gap: 5px;
 }
 
 .cta-section {
