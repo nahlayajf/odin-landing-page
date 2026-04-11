@@ -27,6 +27,11 @@ ul {
     color: grey;
 }
 
+.hero {
+    padding: 30px;
+    padding-bottom: 60px;
+}
+
 .hero-section {
     display: flex;
     justify-content: space-evenly;
