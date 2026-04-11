@@ -54,6 +54,7 @@ ul {
     margin: auto;
 }
 
+
 .info-section {
     display: flex;
     justify-content: center;
@@ -139,6 +140,10 @@ button {
 .footer {
     color: #E5E7EB;
     margin-top: auto;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .quote-text {
