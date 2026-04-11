@@ -12,7 +12,7 @@ body {
 .main-header {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 40px;
     align-items: center;
 }
@@ -28,20 +28,23 @@ ul {
 }
 
 .hero {
-    padding: 30px;
-    padding-bottom: 60px;
+    padding: 30px 100px;
+    padding-top: 0;
 }
 
 .hero-section {
     display: flex;
-    justify-content: space-evenly;
+    margin: 60px;
+    gap: 50px;
 
 }
 
-.hero-section .right-side,
-.hero-section .left-side {
-    align-items: center;
+.hero img {
+    width: 500px;
+    height: 200px;
 }
+
+
 
 .information {
     text-align: center;
