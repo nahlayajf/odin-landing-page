@@ -71,13 +71,17 @@ ul {
 
 }
 
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
 .cta {
-    padding: 40px;
-    margin: 80px 100px;
+    padding: 30px 100px;
     display: flex;
     gap: 100px;
-    align-items: center;
-    width: 650px;
     justify-content: center;
     align-items: center;
 
