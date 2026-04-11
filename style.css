@@ -40,8 +40,8 @@ ul {
 }
 
 .information img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     display: flex;
     margin: auto;
 }
@@ -58,7 +58,7 @@ ul {
 }
 
 .section {
-    max-width: 200px;
+    max-width: 150px;
 
 }
 
