@@ -57,6 +57,9 @@ ul {
     margin: auto;
 }
 
+.left-side {
+    max-width: 450px;
+}
 
 .info-section {
     display: flex;
@@ -66,6 +69,9 @@ ul {
     padding-bottom: 100px;
 }
 
+.hero-section .text {
+    margin-bottom: 10px
+}
 
 
 .section {
@@ -100,6 +106,7 @@ ul {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .hero-section .text,
