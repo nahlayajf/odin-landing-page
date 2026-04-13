@@ -36,12 +36,14 @@ ul {
     display: flex;
     margin: 60px;
     gap: 50px;
+    justify-content: space-between;
 
 }
 
 .hero img {
-    width: 500px;
+    width: 350px;
     height: 200px;
+
 }
 
 
